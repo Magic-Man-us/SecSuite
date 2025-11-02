@@ -34,6 +34,9 @@ type:
 format:
 	uv run ruff format .
 
+lock:
+	uv lock
+
 docs:
 	uv run sphinx-build -b html docs docs/_build
 
