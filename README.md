@@ -1,10 +1,13 @@
 # SecSuite
 
 [![CI (uv)](https://github.com/Magic-Man-us/SecSuite/actions/workflows/ci.yml/badge.svg)](https://github.com/Magic-Man-us/SecSuite/actions/workflows/ci.yml)
-[![PyPI Version](https://img.shields.io/pypi/v/secsuite.svg)](https://pypi.org/project/secsuite)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11%20%7C%203.12%20%7C%203.13%20%7C%203.14-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 [![Code style: Ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
 [![Type checked: mypy](https://img.shields.io/badge/type%20checked-mypy-blue.svg)](http://mypy-lang.org/)
+[![Security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
+[![Security: safety](https://img.shields.io/badge/security-safety-blue.svg)](https://github.com/pyupio/safety)
 
 A modern Python package template with best practices, using `uv` for package management, pytest with coverage, Sphinx documentation, and Ruff for linting/formatting.
 
