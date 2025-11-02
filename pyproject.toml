@@ -42,10 +42,10 @@ docs = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/secsuite"
+Homepage = "https://github.com/Magic-Man-us/secsuite"
 Documentation = "https://secsuite.readthedocs.io"
-Repository = "https://github.com/yourusername/secsuite"
-Issues = "https://github.com/yourusername/secsuite/issues"
+Repository = "https://github.com/Magic-Man-us/secsuite"
+Issues = "https://github.com/Magic-Man-us/secsuite/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/secsuite"]

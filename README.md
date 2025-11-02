@@ -26,7 +26,7 @@ uv sync --all-extras
 Clone the repository and install with all development dependencies:
 
 ```bash
-git clone https://github.com/yourusername/secsuite.git
+git clone https://github.com/Magic-Man-us/secsuite.git
 cd secsuite
 uv sync --all-extras
 ```
@@ -81,7 +81,7 @@ uv sync --all-extras
 Clone the repository and install with all development dependencies:
 
 ```bash
-git clone https://github.com/yourusername/secsuite.git
+git clone https://github.com/Magic-Man-us/secsuite.git
 cd secsuite
 uv sync --all-extras
 ```
@@ -245,5 +245,5 @@ Built with:
 ## Support
 
 - Documentation: [Read the Docs](https://secsuite.readthedocs.io)
-- Issues: [GitHub Issues](https://github.com/yourusername/secsuite/issues)
-- Discussions: [GitHub Discussions](https://github.com/yourusername/secsuite/discussions)
+- Issues: [GitHub Issues](https://github.com/Magic-Man-us/secsuite/issues)
+- Discussions: [GitHub Discussions](https://github.com/Magic-Man-us/secsuite/discussions)
