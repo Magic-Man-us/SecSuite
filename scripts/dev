@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Developer helper: install uv (if missing), sync dependencies, and run a uv command
+set -euo pipefail
+
+if ! command -v uv >/dev/null 2>&1; then
+  echo "uv not found. Please install uv in your Python environment and re-run." >&2
+  echo "See https://docs.astral.sh/uv/ for installation instructions." >&2
+  exit 1
+fi
+
+# Default to syncing dependencies
+if [ "$#" -eq 0 ]; then
+  echo "Syncing dependencies: uv sync --all-extras"
+  uv sync --all-extras
+  exit 0
+fi
+
+echo "Running: uv run $*"
+uv run "$@"
