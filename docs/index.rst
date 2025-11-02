@@ -8,6 +8,7 @@ SecSuite Documentation
    installation
    quickstart
    api/modules
+    security
 
 Welcome to SecSuite
 -------------------

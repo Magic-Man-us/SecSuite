@@ -1,7 +1,7 @@
 # SecSuite
 
 [![CI](https://github.com/Magic-Man-us/SecSuite/actions/workflows/ci.yml/badge.svg)](https://github.com/Magic-Man-us/SecSuite/actions/workflows/ci.yml)
-[![Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/placeholder/coverage.json)](https://github.com/Magic-Man-us/SecSuite/actions/workflows/ci.yml)
+[![Codecov](https://img.shields.io/codecov/c/github/Magic-Man-us/SecSuite.svg?style=flat)](https://codecov.io/gh/Magic-Man-us/SecSuite)
 [![PyPI Version](https://img.shields.io/pypi/v/secsuite.svg)](https://pypi.org/project/secsuite)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: Ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
@@ -42,6 +42,28 @@ uv sync --all-extras
 - **Best Practices**: PEP 8, PEP 257, PEP 484, PEP 585, PEP 604
 - **src/ Layout**: Proper package structure
 - **Pre-commit**: Automated checks before commits
+
+## Security
+
+This project runs automated security checks (Bandit for static analysis and Safety for dependency vulnerabilities). See the full documentation at :doc:`docs/security` or open the page at `docs/security.rst`.
+
+Run the checks locally (uv-first):
+
+```bash
+# sync dev tools into the uv venv
+uv sync --all-extras
+
+# run Bandit (JSON + SARIF)
+uv run bandit -r src/ -f json -o bandit-report.json
+uv run bandit -r src/ -f sarif -o bandit-report.sarif
+
+# run Safety
+uv run safety check --json > safety-report.json
+
+# apply threshold checks (same scripts CI uses)
+python scripts/security_bandit_check.py
+python scripts/security_safety_check.py
+```
 
 ## Installation
 
