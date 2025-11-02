@@ -19,7 +19,7 @@ From Source
 
 Clone the repository and install in development mode::
 
-    git clone https://github.com/yourusername/secsuite.git
+    git clone https://github.com/Magic-Man-us/secsuite.git
     cd secsuite
     uv sync --all-extras
 
