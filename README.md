@@ -1,6 +1,8 @@
 # SecSuite
 
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![CI](https://github.com/Magic-Man-us/SecSuite/actions/workflows/ci.yml/badge.svg)](https://github.com/Magic-Man-us/SecSuite/actions/workflows/ci.yml)
+[![Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/placeholder/coverage.json)](https://github.com/Magic-Man-us/SecSuite/actions/workflows/ci.yml)
+[![PyPI Version](https://img.shields.io/pypi/v/secsuite.svg)](https://pypi.org/project/secsuite)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: Ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
 [![Type checked: mypy](https://img.shields.io/badge/type%20checked-mypy-blue.svg)](http://mypy-lang.org/)
@@ -31,15 +33,15 @@ uv sync --all-extras
 
 ## Features
 
-- 🚀 **Modern Python**: Built for Python 3.11+ with full type hints
-- 📦 **uv**: Fast, modern package management and virtual environments
-- ✅ **Testing**: pytest with coverage reporting and fixtures
-- 📚 **Documentation**: Sphinx with Read the Docs theme
-- 🔍 **Linting**: Ruff for ultra-fast linting and formatting
-- 🔒 **Type Safety**: mypy for static type checking
-- 🎯 **Best Practices**: PEP 8, PEP 257, PEP 484, PEP 585, PEP 604
-- 📁 **src/ Layout**: Proper package structure
-- 🪝 **Pre-commit**: Automated checks before commits
+- **Modern Python**: Built for Python 3.11+ with full type hints
+- **uv**: Fast, modern package management and virtual environments
+- **Testing**: pytest with coverage reporting and fixtures
+- **Documentation**: Sphinx with Read the Docs theme
+- **Linting**: Ruff for ultra-fast linting and formatting
+- **Type Safety**: mypy for static type checking
+- **Best Practices**: PEP 8, PEP 257, PEP 484, PEP 585, PEP 604
+- **src/ Layout**: Proper package structure
+- **Pre-commit**: Automated checks before commits
 
 ## Installation
 
