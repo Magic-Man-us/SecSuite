@@ -1,7 +1,6 @@
 # SecSuite
 
-[![CI](https://github.com/Magic-Man-us/SecSuite/actions/workflows/ci.yml/badge.svg)](https://github.com/Magic-Man-us/SecSuite/actions/workflows/ci.yml)
-[![Codecov](https://img.shields.io/codecov/c/github/Magic-Man-us/SecSuite.svg?style=flat)](https://codecov.io/gh/Magic-Man-us/SecSuite)
+[![CI (uv)](https://github.com/Magic-Man-us/SecSuite/actions/workflows/ci.yml/badge.svg)](https://github.com/Magic-Man-us/SecSuite/actions/workflows/ci.yml)
 [![PyPI Version](https://img.shields.io/pypi/v/secsuite.svg)](https://pypi.org/project/secsuite)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: Ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
